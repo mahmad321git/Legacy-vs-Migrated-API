@@ -4,6 +4,7 @@ def compare_dataframes(df1, df2):
     :param df1: Source Data Frame.
     :param df2: Target Data Frame.
     """
+	
     try:
         columns = df1.columns
 
