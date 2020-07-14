@@ -27,6 +27,7 @@ function global:deactivate ([switch]$NonDestructive) {
 
 deactivate -nondestructive
 
+
 $env:VIRTUAL_ENV="C:\Users\ahmad.idrees\Downloads\CDK_Data_Validation\ven"
 
 if (! $env:VIRTUAL_ENV_DISABLE_PROMPT) {
